@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar-top{
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.navbar{
+    height: 70px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+.nav-item{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.main{
+    height: 710px;
+    background-image: url(./img/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.main h1{
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+.main-button{
+    display: flex;
+    gap: 20px;
+}
+.main-button button{
+    width: 210px;
+    height: 33px;
+    background-color: #FF4A32;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+.main-down{
+   background-color: #000;
+   height: 83px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;   
+}
+.context-up {
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.context-up h1, .context-up p{
+    width: 50%;
+    text-align: center;
+}
+.context-up-box{
+    width: 70px;
+    height: 2px;
+    background-color: #CFCFCF;
+}
+.context-down{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.context-box{
+    width: 580px;
+    height: 580px;
+    background-image: url(./img/rasm1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    gap: 20px;
+}
+.context-box:nth-child(2){
+    background-image: url(./img/rasm2.png);
+}
+.main:nth-child(3){
+    background-image: url(./img/Rectangle.png);
+}
